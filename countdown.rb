@@ -9,7 +9,7 @@ def countdown(number)
 end
 
 def countdown_with_sleep(runtime)
-  until runtime.real.to_i >= runtime
+  until runtime.real.to_i >= 5
   return true
  end
 end
