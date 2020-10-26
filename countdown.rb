@@ -9,6 +9,6 @@ def countdown(number)
 end
 
 def countdown_with_sleep(runtime)
-  runtime.real.to_i >= runtime
+  until runtime.real.to_i >= runtime
   return true
 end
