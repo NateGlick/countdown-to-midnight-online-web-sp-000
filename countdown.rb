@@ -10,6 +10,6 @@ end
 
 def countdown_with_sleep(number)
   number.times do
-  return true
+  sleep 1
  end
 end
