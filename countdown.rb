@@ -10,6 +10,7 @@ end
 
 def countdown_with_sleep(runtime)
   until runtime.real.to_i >= 5
+  runtime += 1
   return true
  end
 end
