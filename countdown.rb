@@ -1,7 +1,7 @@
 #write your code here
 countdown_output == 10
 
-def countdown(countdown_output)
+def countdown(10)
   counter == 10
   while countdown_output > 0
   puts "HAPPY NEW YEAR!"
