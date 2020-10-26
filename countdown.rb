@@ -9,7 +9,7 @@ def countdown(number)
 end
 
 def countdown_with_sleep(number)
-  num.times do
+  number.times do
   return true
  end
 end
