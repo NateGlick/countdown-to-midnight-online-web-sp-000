@@ -9,5 +9,6 @@ def countdown(number)
 end
 
 def countdown_with_sleep(number)
-  
+  number.to_i >= number
+  return true
 end
